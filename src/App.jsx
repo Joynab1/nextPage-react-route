@@ -13,7 +13,9 @@ function App() {
       {/* header */}
       <Header></Header>
       {/* main body */}
+      <div className='min-h-[calc(100vh-136px)]'>
       <Outlet></Outlet>
+      </div>
       {/* footer */}
       <Footer></Footer>
 

@@ -9,7 +9,7 @@ const Header = () => {
         <div className='bg-gray-100 px-4 py-5 mx-auto max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 flex justify-between items-center '>
             {/* logo section */}
             <Link to='/' className='flex items-center'>
-                <BoltIcon className="h-6 w-6 text-blue-500" />
+                <BoltIcon className="h-6 w-6 text-green-500" />
                 <h1 className='font-bold text-xl tracking-wide ml-2'>nextPage</h1>
             </Link >
             {/* navItem section */}
@@ -45,7 +45,7 @@ const Header = () => {
                         <div className='p-5 bg-white border rounded-shadow-sm'>
                             {/* logo section */}
                             <Link to='/' className='flex items-center'>
-                                <BoltIcon className="h-6 w-6 text-blue-500" />
+                                <BoltIcon className="h-6 w-6 text-green-500" />
                                 <h1 className='font-bold text-xl tracking-wide ml-2'>nextPage</h1>
                             </Link >
                         </div>
